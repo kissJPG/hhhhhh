@@ -1,0 +1,23 @@
+{
+  "name": "fanqie-downloader",
+  "version": "1.0.0",
+  "description": "番茄小说下载器 - 支持搜索、浏览和下载番茄小说平台的书籍内容",
+  "main": "app/index.html",
+  "scripts": {
+    "start": "npx serve app",
+    "build": "echo 'Static web build complete'",
+    "cap:init": "npx cap init fanqie-downloader com.fanqie.downloader --web-dir=app",
+    "cap:add:android": "npx cap add android",
+    "cap:sync": "npx cap sync",
+    "cap:open:android": "npx cap open android"
+  },
+  "keywords": ["fanqie", "novel", "downloader", "番茄小说"],
+  "author": "kissJPG",
+  "license": "MIT",
+  "devDependencies": {
+    "@capacitor/cli": "^6.0.0",
+    "@capacitor/core": "^6.0.0",
+    "@capacitor/android": "^6.0.0",
+    "@capacitor/filesystem": "^6.0.0"
+  }
+}

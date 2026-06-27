@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 280" fill="none">
+  <rect width="200" height="280" rx="16" fill="#FFE0D3"/>
+  <text x="100" y="140" text-anchor="middle" fill="#FF6B35" font-size="48" font-family="system-ui">📖</text>
+  <text x="100" y="180" text-anchor="middle" fill="#FF6B35" font-size="14" font-family="system-ui" font-weight="600">番茄下载器</text>
+</svg>
